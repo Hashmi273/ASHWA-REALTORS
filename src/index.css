@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color: #0F1B2E;
+    background-color: #FAF9F6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F1B2E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B8935A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A868;
+}
+
+/* Custom focus ring */
+*:focus-visible {
+  outline: 2px solid #B8935A;
+  outline-offset: 2px;
+}
