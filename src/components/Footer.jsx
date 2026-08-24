@@ -93,7 +93,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-gold-primary flex-shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
-                  Flat No. 902, Bronx Rosa Manhattan, Thane Ghodbunder Road, Kasarvadavali, Thane – 400615
+                  Flat No. 902, Bronx Rosa Manhattan, Hiranandani Estate, Ghodbunder Road, Thane West, Maharashtra – 400615
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -104,8 +104,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-gold-primary flex-shrink-0" />
-                <a href="mailto:advisory@ashwarealtors.com" className="hover:text-gold-primary transition-colors">
-                  advisory@ashwarealtors.com
+                <a href="mailto:info@ashwarealtors.com" className="hover:text-gold-primary transition-colors">
+                  info@ashwarealtors.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">

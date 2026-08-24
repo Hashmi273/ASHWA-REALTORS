@@ -61,7 +61,7 @@ export const termsContent = {
     {
       id: "section-12",
       title: "12. Contact Information for Legal Queries",
-      content: `For questions, clarifications, or legal communications regarding these Terms & Conditions, please contact us at advisory@ashwarealtors.com or write to our office address.`
+      content: `For questions, clarifications, or legal communications regarding these Terms & Conditions, please contact us at info@ashwarealtors.com or write to our office address.`
     }
   ]
 };
@@ -93,7 +93,7 @@ export const privacyContent = {
     {
       id: "section-4",
       title: "4. Communication Consent (DLT / TRAI Compliance)",
-      content: `By checking the mandatory opt-in checkbox on our contact form, you explicitly consent to receive communication from ASHWA REALTORS via Voice Call, SMS, WhatsApp, and Email regarding property advisory recommendations. You may withdraw consent at any time by replying STOP to SMS/WhatsApp messages or writing to advisory@ashwarealtors.com.`
+      content: `By checking the mandatory opt-in checkbox on our contact form, you explicitly consent to receive communication from ASHWA REALTORS via Voice Call, SMS, WhatsApp, and Email regarding property advisory recommendations. You may withdraw consent at any time by replying STOP to SMS/WhatsApp messages or writing to info@ashwarealtors.com.`
     },
     {
       id: "section-5",

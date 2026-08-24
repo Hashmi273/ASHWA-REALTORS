@@ -142,8 +142,8 @@ const Contact = () => {
                       </h3>
                       <p className="leading-relaxed">
                         Flat No. 902, Bronx Rosa Manhattan,<br />
-                        Thane Ghodbunder Road, Kasarvadavali,<br />
-                        Thane, Maharashtra – 400615
+                        Hiranandani Estate, Ghodbunder Road,<br />
+                        Thane West, Maharashtra – 400615
                       </p>
                     </div>
                   </li>
@@ -173,7 +173,9 @@ const Contact = () => {
                         Email Inquiry
                       </h3>
                       <p>
-                        advisory@ashwarealtors.com
+                        <a href="mailto:info@ashwarealtors.com" className="hover:text-gold-primary transition-colors">
+                          info@ashwarealtors.com
+                        </a>
                       </p>
                     </div>
                   </li>
@@ -219,7 +221,7 @@ const Contact = () => {
               <div className="bg-navy-primary rounded-sm border border-gold-primary/30 overflow-hidden shadow-luxury">
                 <iframe
                   title="ASHWA REALTORS Office Location"
-                  src="https://maps.google.com/maps?q=Bronx+Rosa+Manhattan+Thane+Ghodbunder+Road+Kasarvadavali+Thane+400615&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=Flat+No.+902+Bronx+Rosa+Manhattan+Hiranandani+Estate+Ghodbunder+Road+Thane+West+Maharashtra+400615&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="260"
                   style={{ border: 0 }}
@@ -384,7 +386,7 @@ const Contact = () => {
                           className="mt-1 h-4 w-4 rounded border-slate-light text-gold-primary focus:ring-gold-primary cursor-pointer"
                         />
                         <span className="text-xs text-slate-subtle leading-relaxed">
-                          I consent to ASHWA REALTORS contacting me via Call, SMS, WhatsApp, and Email regarding property advisory services and updates. I understand I can withdraw consent anytime by writing to advisory@ashwarealtors.com or replying STOP. *
+                          I consent to ASHWA REALTORS contacting me via Call, SMS, WhatsApp, and Email regarding property advisory services and updates. I understand I can withdraw consent anytime by writing to info@ashwarealtors.com or replying STOP. *
                         </span>
                       </label>
                       {errors.consent && (
